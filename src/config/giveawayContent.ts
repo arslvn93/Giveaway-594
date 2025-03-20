@@ -1,30 +1,28 @@
-
 // This file centralizes all editable content for the giveaway page
 
 // Prize section
 export const prizeImages = [
-  "https://images.unsplash.com/photo-1552767059-ce182ead6c1b?q=80&w=1000", // Main cheese board
-  "https://images.unsplash.com/photo-1452195100486-9cc805987862?q=80&w=500", // Cheese assortment
-  "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?q=80&w=500", // Olives and cheese
+  "https://images.unsplash.com/photo-1605497788044-5a32c7078486?ixid=M3w3MjQzNjF8MHwxfHNlYXJjaHwxfHxiYXJiZXJ8ZW58MHx8fHwxNzQyNDIwMzk3fDA&ixlib=rb-4.0.3",
+  "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixid=M3w3MjQzNjF8MHwxfHNlYXJjaHwyfHxiYXJiZXJ8ZW58MHx8fHwxNzQyNDIwMzk3fDA&ixlib=rb-4.0.3", 
+  "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?ixid=M3w3MjQzNjF8MHwxfHNlYXJjaHwzfHxiYXJiZXJ8ZW58MHx8fHwxNzQyNDIwMzk3fDA&ixlib=rb-4.0.3", 
 ];
-
 export const prizeContent = {
-  title: "Gourmet Cheese Board Gift Basket",
-  description: "This curated gift basket is perfect for an at-home charcuterie night. Featuring a handcrafted wooden cheese board, assortment of fine cheeses, olives, sea salt pretzels, chocolate bark, and a premium knife set—everything you need for a delicious evening with your loved ones.",
+  title: "Local Barber Shop $100 Gift Card",
+  description: "Enjoy a fun and fresh family outing with a $100 gift card to our beloved local barber shop. Whether it’s your kid’s first haircut or a family trimming day, this prize is your ticket to creating memorable moments with your loved ones.",
   features: [
-    "Assorted gourmet cheeses & olives - expertly selected and paired for rich, balanced flavor",
-    "Sea salt pretzels & chocolate bark - the perfect mix of crunchy, salty, and sweet indulgence",
-    "Handcrafted wooden cheese tray with premium knife set for effortless serving",
-    "Free delivery directly to your door in Vaughan",
-    "Perfect for a cozy night in with family and friends",
+    "Exclusive $100 gift card for a local barber shop",
+    "Perfect for family outings and first haircuts",
+    "Simple entry process – no purchase necessary",
+    "Support local businesses in our community",
+    "A chance to create unforgettable family memories",
   ],
-  value: "$175",
+  value: "$100",
 };
 
 // Header section
 export const headerContent = {
-  title: "Win a Curated Cheese Board Gift Basket!",
-  description: "Perfect for Vaughan families looking for a cozy night in! Enter for a chance to win our exclusive cheese board package valued at $175. No purchase necessary.",
+  title: "Win a $100 Gift Card for Family Fun!",
+  description: "Exclusive giveaway for families! Enter for a chance to win a $100 gift card to our favorite local barber shop. Don't miss out – join in today!",
   ctaText: "Enter Now",
   heroImage: prizeImages[0],
   secondaryImage: prizeImages[1], // Add secondary image for the header
@@ -32,7 +30,7 @@ export const headerContent = {
 
 // Navigation section
 export const navigationContent = {
-  title: "Cheese Board Giveaway",
+  title: "Local Barber Shop Giveaway",
   links: [
     { name: 'Home', href: '#' },
     { name: 'Prize Details', href: '#prize' },
@@ -45,22 +43,22 @@ export const navigationContent = {
 // How to Enter section
 export const howToEnterContent = {
   title: "How to Enter",
-  description: "Getting started is easy! Follow these simple steps to enter our giveaway.",
+  description: "Entering is easy! Follow these simple steps to secure your chance at winning our exclusive $100 gift card:",
   steps: [
     {
       icon: "Mail",
       title: "Fill Out the Form",
-      description: "Enter your email address and name in the form and submit it."
+      description: "Enter your name and email address in the form and hit submit."
     },
     {
       icon: "Share2",
-      title: "Share with Friends",
-      description: "Share this giveaway on social media for extra entries."
+      title: "Spread the Word",
+      description: "Share the giveaway on social media for additional entries."
     },
     {
       icon: "Users",
-      title: "Confirm Entry",
-      description: "Check your email to confirm your entry and you're all set!"
+      title: "Confirm Your Entry",
+      description: "Check your email for a confirmation to complete your entry."
     }
   ],
   benefits: [
@@ -71,13 +69,13 @@ export const howToEnterContent = {
     },
     { 
       icon: "Trophy", 
-      title: "Multiple Entries", 
-      desc: "Share for more chances" 
+      title: "Extra Chances", 
+      desc: "Earn bonus entries by sharing" 
     },
     { 
       icon: "Gift", 
-      title: "Premium Prize", 
-      desc: "Valued at $175" 
+      title: "Awesome Prize", 
+      desc: "Valued at $100" 
     }
   ],
   formLabels: {
@@ -105,48 +103,48 @@ export const rulesContent = {
   rules: [
     {
       question: "Who is eligible to enter?",
-      answer: "Anyone 18 years or older residing in the Vaughan area can enter this giveaway.",
+      answer: "Anyone 18 years or older residing in our community can enter this giveaway."
     },
     {
       question: "How long does the giveaway run?",
-      answer: "This giveaway runs until February 2nd, 2025, as indicated by the countdown timer.",
+      answer: "This giveaway runs from March 19, 2025 until April 7, 2025, as indicated by the countdown timer."
     },
     {
       question: "How will the winner be selected?",
-      answer: "The winner will be selected randomly from all valid entries. We use a certified random selection tool to ensure fairness.",
+      answer: "The winner will be selected randomly from all valid entries using a certified random selection process to ensure fairness."
     },
     {
       question: "When and how will the winner be notified?",
-      answer: "The winner will be notified via email within 48 hours after the giveaway ends. They must respond within 72 hours to claim their prize.",
+      answer: "The winner will be notified via email within 48 hours after the giveaway ends and must respond within 72 hours to claim the prize."
     },
     {
       question: "How many times can I enter?",
-      answer: "Each person may enter once. Additional entries can be earned through sharing on social media (up to 3 additional entries).",
+      answer: "Each person may enter once. Additional entries can be earned by sharing on social media (up to 3 extra entries)."
     },
     {
       question: "Is my information secure?",
-      answer: "Yes, we take privacy seriously. Your information will only be used for this giveaway and will not be shared with third parties.",
-    },
+      answer: "Yes, your information is kept confidential and is only used for the purposes of this giveaway."
+    }
   ],
   imageUrl: "https://images.unsplash.com/photo-1607344645866-009c320b63e0?q=80&w=800",
   tipsForEntering: [
-    "Double-check your email address before submitting your entry",
-    "Share on social media for additional entry opportunities",
-    "Set a calendar reminder for the drawing date"
+    "Double-check your email before submitting your entry",
+    "Share on social media for extra entry opportunities",
+    "Set a reminder for the drawing date"
   ],
-  importantNotice: "All winners will be contacted via the email provided during entry. Make sure to check your inbox (and spam folder) regularly after the giveaway ends.",
+  importantNotice: "All winners will be contacted via the email provided at entry. Be sure to check your inbox (and spam folder) regularly after the giveaway ends.",
   supportEmail: "support@giveaway.com",
-  termsText: "By entering, you agree to all rules and terms.",
+  termsText: "By entering, you agree to all the rules and terms.",
   downloadRulesText: "Download Full Rules PDF"
 };
 
 // Contact section
 export const contactContent = {
   title: "Get In Touch",
-  email: "info@rapsgiveaway.com",
-  phone: "416-555-1234",
+  email: "info@theskygroup.ca",
+  phone: "289-210-5250",
   brokerage: {
-    name: "Toronto Sports Entertainment",
+    name: "The Sky Group",
     address: "123 Arena Blvd, Toronto"
   },
   disclaimer: "This site is not intended to solicit buyers or sellers who are currently under contract.",
@@ -156,24 +154,24 @@ export const contactContent = {
 
 // Footer section
 export const footerContent = {
-  aboutText: "The Raptors Giveaway specializes in offering exclusive prizes to our dedicated fans.",
-  email: "info@rapsgiveaway.com",
-  phone: "416-555-1234",
+  aboutText: "The Sky Group specializes in offering exclusive opportunities and community-focused giveaways for our dedicated fans.",
+  email: "info@theskygroup.ca",
+  phone: "289-210-5250",
   quickLinks: ["Home", "About", "Listings", "Contact", "Privacy Policy"],
   newsletterText: "Subscribe to our newsletter for the latest updates on giveaways and exclusive offers.",
   brokerage: {
-    name: "Toronto Sports Entertainment",
+    name: "The Sky Group",
     address: "123 Arena Blvd, Toronto"
   },
   disclaimer: "This site is not intended to solicit buyers or sellers who are currently under contract.",
   copyright: "Copyright 2025. All rights reserved",
-  company: "The Sky Group Real Estate",
+  company: "The Sky Group",
   privacyPolicyText: "Privacy Policy"
 };
 
 // Countdown
 export const countdownContent = {
-  endDate: new Date("February 2, 2025") 
+  endDate: new Date("April 7, 2025")
 };
 
 // Color scheme configuration for the entire giveaway
